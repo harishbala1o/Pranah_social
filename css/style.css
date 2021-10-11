@@ -277,7 +277,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #222222;
+    background: #257044;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -293,7 +293,7 @@ button:focus {
   z-index: 1;
   min-height: 900px;
   display: flex;
-  background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(../img/banner/home-banner.png) no-repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%;
@@ -343,7 +343,7 @@ button:focus {
     background: transparent;
     z-index: 1; }
     .banner_area .banner_inner .overlay {
-      background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/banner/banner.jpg) no-repeat scroll center center;
+      background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/banner/banner.png) no-repeat scroll center center;
       background-size: cover;
       position: absolute;
       left: 0;
