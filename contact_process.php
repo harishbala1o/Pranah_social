@@ -1,6 +1,6 @@
 <?php
 
-    $to = "Cancercuringtree@gmail.com";
+    $toEmail = "pranahsocialassociation@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -33,5 +33,5 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
-
+require_once "contact_process.php";
 ?>
